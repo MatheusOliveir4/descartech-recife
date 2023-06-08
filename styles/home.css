@@ -59,10 +59,11 @@ html {
 
 .carousel {
   background: #32B768;
+  color: var(--white);
 }
 
-.carousel-item .screen-img {
-  width: 300px;
+.carousel .carousel-title {
+  font-size: 1.5rem;
 }
 
 footer .icon-social-media {
