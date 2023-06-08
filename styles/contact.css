@@ -1,0 +1,71 @@
+:root {
+  --white: #FFFFFF;
+  --light-green: #00FF29;
+  --dark-green: #2B7A4B;
+  --light-gray: #A6ABA8;
+}
+
+* {
+  font-family: 'Karla', Arial, sans-serif;
+}
+
+html {
+  font-size: 13px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+#navbar a {
+  color: var(--white);
+}
+
+#navbar a:hover {
+  color: var(--light-green);
+}
+
+#navbar a.active {
+  color: var(--light-green);
+  border-bottom: 1px solid var(--light-green);
+}
+
+#navbar-items .navbar-nav {
+  margin-left: auto;
+}
+
+#navbar-items .navbar-nav .nav-item {
+  margin: 0 1rem;
+}
+
+#main-section {
+  flex: 1;
+
+}
+
+#main-section .title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+footer .icon-social-media {
+  width: 3rem;
+}
