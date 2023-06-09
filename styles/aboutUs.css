@@ -78,7 +78,6 @@ html, body {
 #main-content .circle {
   width: 8rem;
   height: 8rem;
-  background-color: var(--gray);
 
   z-index: 5;
 }
